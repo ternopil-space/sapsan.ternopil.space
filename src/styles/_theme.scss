@@ -2,26 +2,26 @@
 	color-scheme: light;
 
 	/* brand / actions */
-	--c-primary: #a97845;
-	--c-primary-hover: #92663a;
-	--c-secondary: #5b4030;
-	--c-secondary-hover: #483225;
+	--c-primary: #b9784e;
+	--c-primary-hover: #9f633d;
+	--c-secondary: #6f4630;
+	--c-secondary-hover: #573625;
 
 	/* surfaces */
-	--c-bg-primary: #f3ebe2;
-	--c-bg-secondary: #fff8f1;
-	--c-bg-tertiary: #e7d8c7;
+	--c-bg-primary: #f2e4d7;
+	--c-bg-secondary: #fff4ea;
+	--c-bg-tertiary: #dfc4aa;
 
 	/* content */
-	--c-text-primary: #6f5847;
-	--c-text-secondary: #2f2118;
-	--c-text-muted: #9a816d;
-	--c-placeholder: #9a816db3;
+	--c-text-primary: #6b4b38;
+	--c-text-secondary: #2f2119;
+	--c-text-muted: #9b745d;
+	--c-placeholder: #9b745db3;
 
 	/* borders & elevation */
-	--c-border: #d6c1ad;
-	--shadow-sm: 0 1px 2px rgba(47, 33, 24, 0.08);
-	--shadow-md: 0 10px 30px rgba(47, 33, 24, 0.16);
+	--c-border: #d1ad91;
+	--shadow-sm: 0 1px 2px rgba(47, 33, 25, 0.08);
+	--shadow-md: 0 10px 30px rgba(47, 33, 25, 0.16);
 
 	/* typography */
 	--ff-base: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
@@ -59,57 +59,34 @@
 	--motion-slow: 0.4s;
 
 	/* focus */
-	--focus-ring: 0 0 0 3px rgba(169, 120, 69, 0.24);
+	--focus-ring: 0 0 0 3px rgba(185, 120, 78, 0.24);
 }
 
 html[data-mode='dark'] {
 	color-scheme: dark;
 
 	/* brand / actions */
-	--c-primary: #c3925f;
-	--c-primary-hover: #d4a675;
-	--c-secondary: #f0e0cf;
-	--c-secondary-hover: #fff3e7;
+	--c-primary: #c88a5c;
+	--c-primary-hover: #dfa171;
+	--c-secondary: #ead3bf;
+	--c-secondary-hover: #fff1e2;
 
 	/* surfaces */
-	--c-bg-primary: #1c140f;
-	--c-bg-secondary: #281d16;
-	--c-bg-tertiary: #35271d;
+	--c-bg-primary: #1b1713;
+	--c-bg-secondary: #28211b;
+	--c-bg-tertiary: #393027;
 
 	/* borders & elevation */
-	--c-border: #4d392b;
+	--c-border: #5a4638;
 	--shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
 	--shadow-md: 0 10px 30px rgba(0, 0, 0, 0.5);
 
 	/* content */
-	--c-text-primary: #ccb39a;
-	--c-text-secondary: #fff7ef;
-	--c-text-muted: #a88f78;
-	--c-placeholder: #a88f78cc;
+	--c-text-primary: #d7bea6;
+	--c-text-secondary: #fff6ed;
+	--c-text-muted: #b08f75;
+	--c-placeholder: #b08f75cc;
 
 	/* focus */
-	--focus-ring: 0 0 0 3px rgba(195, 146, 95, 0.28);
-}
-
-html[data-density='compact'] {
-	--sp-1: 2px;
-	--sp-2: 6px;
-	--sp-3: 10px;
-	--sp-4: 14px;
-	--sp-5: 18px;
-	--sp-6: 22px;
-	--sp-7: 28px;
-	--sp-8: 36px;
-	--sp-10: 42px;
-	--sp-12: 48px;
-	--sp-16: 64px;
-	--sp-20: 84px;
-
-	--gutter: 8px;
-}
-
-html[data-radius='square'] {
-	--radius: 0px;
-	--radius-card: 0px;
-	--radius-btn: 0px;
+	--focus-ring: 0 0 0 3px rgba(200, 138, 92, 0.28);
 }
